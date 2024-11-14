@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @apply text-[12px] font-inter w-full min-h-screen flex justify-center dark:bg-black;
+}
+
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to top, #66d8f5, #a11212, #0d750d, #afaf00);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.logo-img {
+    width: 100px;
+    height: 40px;
+    object-fit: cover;
+}
